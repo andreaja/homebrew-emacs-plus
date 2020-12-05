@@ -12,8 +12,6 @@ on:
   pull_request:
     paths:
       - ".github/workflows/online.yml"
-  schedule:
-    - cron: "0 */12 * * *"
 
 jobs:
   tap-and-install:
