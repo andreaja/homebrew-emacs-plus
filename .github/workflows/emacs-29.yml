@@ -15,8 +15,6 @@ on:
       - "patches/emacs-29/**"
       - "Library/**"
       - ".github/workflows/emacs-29.yml"
-  schedule:
-    - cron: "0 */4 * * *"
 
 jobs:
   build:

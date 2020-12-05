@@ -11,8 +11,6 @@ on:
     paths:
       - "Aliases/emacs-plus"
       - ".github/workflows/emacs.yml"
-  schedule:
-    - cron: "0 */12 * * *"
 
 jobs:
   build:
