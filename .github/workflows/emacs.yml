@@ -13,8 +13,6 @@ on:
       - "Aliases/emacs-plus"
       - ".github/workflows/emacs.yml"
       - "Library/**"
-  schedule:
-    - cron: "30 0 * * *"
 
 jobs:
   build:
