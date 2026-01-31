@@ -13,10 +13,6 @@ on:
           - '30'
           - '31'
 
-  # Nightly builds at 3 AM UTC (for Emacs 31 development version)
-  schedule:
-    - cron: '0 3 * * *'
-
   # Rebuild Emacs 30 when formula, patches, or build logic changes
   push:
     branches: [master]
