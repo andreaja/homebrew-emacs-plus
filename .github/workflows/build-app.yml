@@ -798,7 +798,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Download artifacts for Emacs 30
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           path: artifacts
           pattern: emacs-plus-30.*
@@ -898,7 +898,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Download artifacts for Emacs 31
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           path: artifacts
           pattern: emacs-plus-31.*
