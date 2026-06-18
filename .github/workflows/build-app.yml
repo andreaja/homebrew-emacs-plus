@@ -45,7 +45,7 @@ jobs:
             os_name: sequoia-intel
     runs-on: ${{ matrix.platform.runner }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Set environment
         run: |
@@ -428,7 +428,7 @@ jobs:
             os_name: sequoia-intel
     runs-on: ${{ matrix.platform.runner }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Set environment
         run: |
@@ -795,7 +795,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download artifacts for Emacs 30
         uses: actions/download-artifact@v7
@@ -895,7 +895,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download artifacts for Emacs 31
         uses: actions/download-artifact@v7
